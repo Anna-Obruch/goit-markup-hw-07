@@ -1,0 +1,29 @@
+@media screen and (min-width: 480px) {
+  .container {
+    width: 428px;
+  }
+
+  .hero-title {
+    width: 320px;
+  }
+  .mob-menu {
+    padding-left: 40px;
+    padding-right: 51px;
+  }
+  .mob-menu-soc-list {
+    gap: 56px;
+  }
+  .mob-menu-contact-tel {
+    font-weight: 600;
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: 767.5px) {
+  .footer-logo {
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-title {
+    text-align: center;
+  }
+}
