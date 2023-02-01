@@ -138,7 +138,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .benefits-item,
   .team-item {
     width: calc((100% - 30px) / 2);
