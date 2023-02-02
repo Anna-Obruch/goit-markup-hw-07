@@ -97,6 +97,10 @@
     }
     .footer-inf {
       flex-wrap: nowrap;
+      gap: 20px;
+    }
+    .footer-logo-inf {
+      margin-right: 120px;
     }
     .footer-soc {
       margin-right: 80px;
