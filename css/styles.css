@@ -67,7 +67,7 @@ body {
 }
 
 .container {
-  width: 320px;
+  width: 303px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -91,6 +91,8 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid var(--accent-color);
+  height: 70px;
+  
 }
 
 .header > .container {
@@ -127,8 +129,8 @@ body {
   position: fixed;
   top: 0;
   z-index: 1;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background-color: #ffffff;
   padding-top: 80px;
   padding-bottom: 40px;
@@ -154,6 +156,9 @@ body {
   font-size: 36px;
   line-height: 1.11;
   color: var(--first-title-color);
+}
+.current {
+  color: var(--btn-hover-color);
 }
 .mob-menu-link:hover,
 .mob-menu-link:focus {
@@ -208,8 +213,8 @@ body {
 .hero {
   text-align: center;
   background-color: var(--background-dark-color);
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding-top: 112px;
+  padding-bottom: 112px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -219,13 +224,13 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 1440px;
-  height: 600px;
+  height: 432px;
   margin: 0 auto;
 }
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  .hero-wrap {
+  .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -403,7 +408,8 @@ body {
 .customers-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  row-gap: 72px;
+  column-gap: 16px;
 }
 
 .customers-item {
@@ -467,6 +473,10 @@ body {
   color: var(--accent-color);
   width: 264px;
   margin: 18px auto 72px auto;
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 
 .footer-title {

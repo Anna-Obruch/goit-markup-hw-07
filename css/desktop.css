@@ -17,6 +17,9 @@
     line-height: 1.5;
   }
   .hero {
+    height: 600px;
+    padding-top: 188px;
+  padding-bottom: 188px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -26,13 +29,16 @@
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .hero-wrap {
+    .hero{
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
         url(../images/hero-bg-desk-2x.jpg);
     }
+  }
+  .header-link.current::after {
+    bottom: -25px;
   }
     .benefits-list {
       flex-wrap: nowrap;
