@@ -37,6 +37,7 @@
         url(../images/hero-bg-desk-2x.jpg);
     }
   }
+  
   .header-link.current::after {
     bottom: -25px;
   }
@@ -102,3 +103,10 @@
     }
   }
 
+  @media screen and (min-width: 1440px) {
+  .header {
+    padding-left: 156px;
+    padding-right: 156px;
+  }
+
+  }
